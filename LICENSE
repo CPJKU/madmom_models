@@ -1,17 +1,4 @@
-# madmom_models
-
-This repository is not usable without the `madmom` Python package, which can
-be found at https://github.com/CPJKU/madmom. It contains model and data
-files for some of the algorithms implemented with the `madmom` package.
-
-## Installation
-
-Please install the `madmom` package (https://github.com/CPJKU/madmom) instead.
-This repository is included as a Git submodule in the `madmom/models/` folder.
-
-## License
-
-All model and data files are distributed under the following license:
+All files in this repository are distributed under the following license:
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 
@@ -34,14 +21,6 @@ Under the following terms:
 All legal details can be found here:
 http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-Data and model files usually have (but are not limited to) .npy, .npz, .h5,
-.hdf5, .pkl or .mat file extensions.
-
 If you want to include any of these files (or a variation or modification
 thereof) or technology which utilises them in a commercial product, please
 contact Gerhard Widmer at http://www.cp.jku.at/people/widmer/.
-
-## Notes
-
-Please note that pickled `madmom` Processors (i.e. saved models) which use any
-of the files included in this repository inherit the above license.
