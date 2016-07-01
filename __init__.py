@@ -14,7 +14,7 @@ import glob
 path = os.path.dirname(__file__)
 
 # beats
-BEATS_BLSTM = sorted(glob.glob('%s/beats/2013/beats_blstm_[1-8].pkl' % path))
+BEATS_BLSTM = sorted(glob.glob('%s/beats/2015/beats_blstm_[1-8].pkl' % path))
 # downbeats
 DOWNBEATS_BLSTM = sorted(glob.glob(
     '%s/downbeats/2016/downbeats_blstm_[1-8].pkl' % path))
