@@ -28,6 +28,10 @@ ONSETS_BRNN_PP = sorted(glob.glob('%s/onsets/2014/onsets_brnn_pp_[1-8].pkl' %
 # patterns
 PATTERNS_BALLROOM = sorted(
     glob.glob('%s/patterns/2013/ballroom_pattern_[34]_4.pkl' % path))
+# deep chroma
+CHROMA_DNN = ['%s/chroma/2016/chroma_dnn.pkl' % path]
+# chords
+CHORDS_DCCRF = ['%s/chords/2016/chords_dccrf.pkl' % path]
 
 # keep namespace clean
 del os, glob, path
