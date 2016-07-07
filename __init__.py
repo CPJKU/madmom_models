@@ -34,6 +34,8 @@ PATTERNS_BALLROOM = sorted(
 CHROMA_DNN = ['%s/chroma/2016/chroma_dnn.pkl' % path]
 # chords
 CHORDS_DCCRF = ['%s/chords/2016/chords_dccrf.pkl' % path]
+CHORDS_CNN_FEAT = ['%s/chords/2016/chords_cnnfeat.pkl' % path]
+CHORDS_CFCRF = ['%s/chords/2016/chords_cnncrf.pkl' % path]
 
 # keep namespace clean
 del os, glob, path
