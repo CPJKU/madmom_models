@@ -25,6 +25,8 @@ ONSETS_RNN = sorted(glob.glob('%s/onsets/2013/onsets_rnn_[1-8].pkl' % path))
 ONSETS_BRNN = sorted(glob.glob('%s/onsets/2013/onsets_brnn_[1-8].pkl' % path))
 ONSETS_BRNN_PP = sorted(glob.glob('%s/onsets/2014/onsets_brnn_pp_[1-8].pkl' %
                                   path))
+ONSETS_CNN = sorted(glob.glob('%s/onsets/2013/onsets_cnn.pkl' % path))
+
 # patterns
 PATTERNS_BALLROOM = sorted(
     glob.glob('%s/patterns/2013/ballroom_pattern_[34]_4.pkl' % path))
