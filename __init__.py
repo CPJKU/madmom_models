@@ -10,6 +10,7 @@ from __future__ import absolute_import, division, print_function
 
 import os
 import glob
+from os.path import join as pj
 
 path = os.path.dirname(__file__)
 
@@ -18,6 +19,11 @@ BEATS_BLSTM = sorted(glob.glob('%s/beats/2015/beats_blstm_[1-8].pkl' % path))
 # downbeats
 DOWNBEATS_BLSTM = sorted(glob.glob(
     '%s/downbeats/2016/downbeats_blstm_[1-8].pkl' % path))
+DOWNBEATS_BGRU = list([sorted(glob.glob(pj(path, 'downbeats', '2016',
+                                           'downbeats_bgru_rhythmic_*.pkl'))),
+                       sorted(glob.glob(pj(path, 'downbeats', '2016',
+                                           'downbeats_bgru_harmonic_*.pkl')))])
+
 # notes
 NOTES_BRNN = sorted(glob.glob('%s/notes/2013/notes_brnn.pkl' % path))
 # onsets
