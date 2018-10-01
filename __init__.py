@@ -49,7 +49,7 @@ CHORDS_CNN_FEAT = ['%s/chords/2016/chords_cnnfeat.pkl' % path]
 CHORDS_CFCRF = ['%s/chords/2016/chords_cnncrf.pkl' % path]
 
 # key
-KEY_CNN = sorted(glob.glob('%s/key/2017/key_cnn_[1-4].pkl' % path))
+KEY_CNN = ['%s/key/2018/key_cnn.pkl' % path]
 
 # keep namespace clean
 del os, glob, path
