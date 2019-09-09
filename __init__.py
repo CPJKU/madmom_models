@@ -45,7 +45,8 @@ DOWNBEATS_BGRU = [models('downbeats/2016/downbeats_bgru_rhythmic_*.pkl'),
                   models('downbeats/2016/downbeats_bgru_harmonic_*.pkl')]
 # notes
 NOTES_BRNN = models('notes/2013/notes_brnn.pkl')
-NOTES_CNN = models('notes/2018/notes_cnn_[12].pkl')
+NOTES_CNN = models('notes/2019/notes_cnn.pkl')
+NOTES_CNN_MIREX = models('notes/2018/notes_cnn_[12].pkl')
 
 # onsets
 ONSETS_RNN = models('onsets/2013/onsets_rnn_[1-8].pkl')
