@@ -37,7 +37,7 @@ def models(pattern, path=MODEL_PATH):
 # beats
 BEATS_LSTM = models('beats/2016/beats_lstm_[1-8].pkl')
 BEATS_BLSTM = models('beats/2015/beats_blstm_[1-8].pkl')
-BEATS_BTCN = models('beats/2019/beats_btcn_[1-8].pkl')
+BEATS_TCN = models("beats/2019/beats_tcn_[1-8].pkl")
 
 # downbeats
 DOWNBEATS_BLSTM = models('downbeats/2016/downbeats_blstm_[1-8].pkl')
